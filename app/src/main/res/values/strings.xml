@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Application Formulary</string>
+    <string name="nomcompleto">Nombre Completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="descContacto">Descripcion del Contacto</string>
+    <string name="btsiguiente">Siguente</string>
+
+    <string name="ddtitulo">Cofirmar Datos</string>
+    <string name="ddnombre">Nombre</string>
+    <string name="ddfecnac">Fecha Nacimiento: </string>
+    <string name="ddemail">Email: </string>
+    <string name="ddtelefono">Tel: </string>
+    <string name="dddescripcion">Descripción: </string>
+    <string name="bteditardatos"> Editar Datos</string>
+
+</resources>
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.jjgamper.formularyaplication.DetalleDatos">
+
+
+    <TextView
+        android:id="@+id/tvddTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ddtitulo"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/tamTitu"/>
+
+    <TextView
+        android:id="@+id/ddNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top"
+        android:text="@string/ddnombre"
+        android:textStyle="bold"
+        android:textSize="@dimen/tamText"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/ddfecnac"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamText"/>
+
+        <TextView
+            android:id="@+id/tvddFecNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/ddfecnac"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/ddtelefono"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamText"/>
+
+        <TextView
+            android:id="@+id/tvddTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/ddtelefono"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/ddemail"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamText"/>
+
+        <TextView
+            android:id="@+id/tvddEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/ddemail"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/dddescripcion"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamText"/>
+
+        <TextView
+            android:id="@+id/tvddDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/dddescripcion"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamText"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btEditarDatos"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bteditardatos" />
+
+</LinearLayout>
